@@ -5,7 +5,6 @@ Point::Point(int a, int b) {
     y = b;
 }
 Point::Point() {
-
 }
 int Point::GetX() {
     return x;
@@ -14,13 +13,9 @@ int Point::GetY() {
     return y;
 }
 Point::~Point() {
-
 }
-/////////////////////////////////////////////////////
 Polynom::Polynom() {
-
 }
-
 Polynom::Polynom(Colour pColour1){
     pColour = pColour1;
 }
@@ -80,9 +75,7 @@ void Polynom::sorty() {
         std::cout << "(x:" << allPoint[index].GetX() <<  " y:" << allPoint[index].GetY()<< ") " ;
     }
 }
-
 Polynom::~Polynom() {
-
 }
 
 

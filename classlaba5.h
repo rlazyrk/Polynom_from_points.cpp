@@ -7,7 +7,6 @@
 enum Colour{
     RED,GREEN,BLUE,WHITE,YELLOW
 };
-
 class Point {
 private:
     int x;
@@ -19,7 +18,6 @@ public:
     int GetY();
     ~Point();
 };
-
 class Polynom{
 private:
     std::string allColours[5]={    "RED","GREEN","BLUE","WHITE","YELLOW"};
