@@ -4,7 +4,7 @@ int main() {
     Point uno(100,7);
     Point dos(25,17);
     Point tres(40,28);
-    Point quatro(17, 35);
+    Point quatro(18, 35);
     Polynom x(BLUE);
     x.add(uno);
     x.add(dos);
