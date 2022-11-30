@@ -10,9 +10,9 @@ int main() {
     x.add(dos);
     x.add(tres);
     x.add(quatro);
-    std::cout << x.Perimeter()<< "\t" << x.getColour() << " " << x.BiggetsDiagonal()<< "\n" << std::endl;
-    x.sortx();
+    std::cout << x.FindPerimeter()<< "\t" << x.getColour() << " " << x.FindBiggestDiagonal()<< "\n" << std::endl;
+    x.SortByX();
     std::cout << std::endl;
-    x.sorty();
+    x.SortByY();
     return 0;
 }

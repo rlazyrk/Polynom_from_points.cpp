@@ -30,10 +30,10 @@ public:
     Polynom();
     Polynom(Colour pColour);
     std::string getColour();
-    float Perimeter();
-    float BiggetsDiagonal();
-    void sortx();
-    void sorty();
+    void SortByX();
+    void SortByY();
+    float FindPerimeter();
+    float FindBiggestDiagonal();
     ~Polynom();
 };
 #endif
