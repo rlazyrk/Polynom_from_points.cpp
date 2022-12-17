@@ -1,9 +1,10 @@
-
 #ifndef LABA5_CLASSLABA5_H
 #define LABA5_CLASSLABA5_H
+
 #include <vector>
 #include <string>
-#include "math.h"
+#include <math.h>
+
 enum Colour{
     RED,GREEN,BLUE,WHITE,YELLOW
 };
@@ -23,12 +24,12 @@ private:
     std::string allColours[5]={    "RED","GREEN","BLUE","WHITE","YELLOW"};
 public:
     std::vector<Point> allPoint;
-    Colour pColour;
-    void add(Point uno){
+    Colour polynomColour;
+    void Add(Point uno){
         allPoint.push_back(uno);
     }
     Polynom();
-    Polynom(Colour pColour);
+    Polynom(Colour polynomColour);
     std::string getColour();
     void SortByX();
     void SortByY();

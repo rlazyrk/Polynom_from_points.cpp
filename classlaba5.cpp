@@ -1,5 +1,7 @@
-#include "classLaba5.h"
 #include <iostream>
+
+#include "classlaba5.h"
+
 Point::Point(int a, int b) {
     x = a;
     y = b;
@@ -17,10 +19,10 @@ Point::~Point() {
 Polynom::Polynom() {
 }
 Polynom::Polynom(Colour pColour1){
-    pColour = pColour1;
+    polynomColour = pColour1;
 }
 std::string Polynom::getColour(){
-    return allColours[pColour];
+    return allColours[polynomColour];
 }
 float Polynom::FindPerimeter() {
     float perimeter = 0;
@@ -77,5 +79,3 @@ void Polynom::SortByY() {
 }
 Polynom::~Polynom() {
 }
-
-
